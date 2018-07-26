@@ -8,11 +8,13 @@ export default function(ComposedComponent) {
         componentWillMount() {
             if(!this.props.authenticated) {
                 history.push('/');
+                window.alert('You must log in to view the dashboard.');
             }
         }
         componentWillUpdate(nextProps) {
             if(!nextProps.authenticated) {
                 history.push('/');
+                window.alert('You must log in to view the dashboard.');
             }
         }
         render() {
