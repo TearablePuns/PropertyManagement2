@@ -9,7 +9,18 @@ html {
     padding: 0;
     box-sizing: inherit;
 }
-
+::-webkit-input-placeholder { // All of these are
+    font-family: $font-encode;
+}
+:-ms-input-placeholder {      // here to style the
+    font-family: $font-encode;
+}
+::-moz-placeholder {          // placeholder text
+    font-family: $font-encode;
+}
+:-moz-placeholder {           // for Chrome, IE, and Firefox
+    font-family: $font-encode;
+}
 body {
     font-family: $font-encode;
     font-weight: 400;

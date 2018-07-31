@@ -1,5 +1,6 @@
 //email
-.form-input {
+.form-input,
+.form-textarea {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 3fr 10fr;
@@ -17,7 +18,8 @@
     }
 }
 //password
-.form-input {
+.form-input,
+.form-textarea {
     &__title {
         color: $color-red;
         font-size: 1.8rem;
@@ -33,6 +35,17 @@
         padding-left: 2rem;
         font-size: 1.6rem;
         font-weight: 500;
+        font-family: $font-encode;
+    }
+}
+.form-textarea {
+    &__title {
+        height: 35.5rem;
+    }
+    &__input {
+        resize: none;
+        height: 35.5rem;
+        padding-top: 1rem;
     }
 }
 //button
@@ -50,5 +63,25 @@
         line-height: 2.8rem;
         text-align: center;
         border: none;
+    }
+}
+
+.form-button-small {
+    
+    &__button {
+        width: 13rem;
+        border-radius: 1.6rem;
+        border: 1px solid $color-gray-4D;
+        height: 2.4rem;
+
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        text-align: center;
+        background-color: white;
+    }
+    &__danger {
+        border: none;
+        color: white;
+        background: $color-red;
     }
 }

@@ -7,7 +7,6 @@ const INITIAL_STATE = {
     user:[]
 }
 export default function(state=INITIAL_STATE, action) {
-    console.log(action.payload);
     switch (action.type) {
         case AUTHENTICATE_USER:
         const { user } = action.payload;
