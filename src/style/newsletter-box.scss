@@ -3,7 +3,7 @@
 
     height: 16rem;
     width: 16rem;
-    border: .2rem solid $color-red;
+    border: .25rem solid $color-red;
     border-radius: .5rem;
     color: $color-red;
 
@@ -38,9 +38,9 @@
 
         align-self: center;
         justify-self: end;
-        transform: translateX(53%) rotate(45deg);
-        border-top: .2rem solid $color-red;
-        border-right: .2rem solid $color-red;
+        transform: translateX(53.5%) rotate(45deg);
+        border-top: .25rem solid $color-red;
+        border-right: .25rem solid $color-red;
         border-radius: 10%;
 
     }

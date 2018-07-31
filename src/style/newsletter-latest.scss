@@ -5,6 +5,9 @@
     display: grid;
     grid-template-rows: [s] 258px [m] 405px [e];
     grid-template-columns: [s] 1fr [e];
+
+    border-radius: .5rem;
+    border: 1px solid $color-gray-E6;
     & > * {
         grid-column: s/e;
     }
@@ -15,15 +18,23 @@
     }
     &__title {
         grid-row: s/m;
+        color: white;
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 5rem;
+        text-align: center;
     }
     &__image {
         z-index: -10;
         grid-row: s/m;
+        border-radius: 3px;
     }
     &__body {
         grid-row: m/e;
         p {
-
+            margin: 6.3rem 6.05rem;
+            line-height: 2.2rem;
+            font-size: 1.6rem;
         }
     }
 }
