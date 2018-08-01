@@ -26,7 +26,8 @@ body {
     font-weight: 400;
     color: $color-gray-4D;
 }
-button {
+button,
+.button {
     transition: all .3s ease;
     &:focus {
         outline: none;
