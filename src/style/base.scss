@@ -26,16 +26,7 @@ body {
     font-weight: 400;
     color: $color-gray-4D;
 }
-button,
-.button {
-    transition: all .3s ease;
-    &:focus {
-        outline: none;
-    }
-    &:active {
-        transform: scale(0.95) translateY(2.05px);
-    }
-}
+
 .layout-grid {
     width: 100vw;
     height: 100vh;
