@@ -37,6 +37,15 @@ class NewNewsletterForm extends Component {
           title="Submit"
           component={FormButton}
         />
+        <Field
+          className="new-newsletter-form__cancel"
+          small={true}
+          name="cancel"
+          type="button"
+          title="Cancel"
+          component={FormButton}
+          onClick={this.props.onCancel}
+        />
         
         </form>
     );

@@ -80,7 +80,7 @@
         background-color: white;
     }
     &__danger {
-        border: none;
+        border: 1px solid $color-red;
         color: white;
         background: $color-red;
     }
